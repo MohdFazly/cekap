@@ -1,0 +1,64 @@
+
+  
+
+form {
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 4px solid hsl(0, 0%, 90%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+input[type=text] {
+    padding:10px;
+    margin:10px 0;
+    box-sizing: border-box;
+  }
+
+select[id=LorryNumber] {
+    padding:10px;
+    margin:10px 0;
+  }
+
+select[id=driverName] {
+    padding:10px;
+    margin:10px 0;
+  }
+  
+select[id=fromLocation] {
+    padding:10px;
+    margin:10px 0;
+  }
+
+select[id=toLocation] {
+    padding:10px;
+    margin:10px 0;
+    
+  }
+
+input[type=date] {
+    padding:10px;
+    margin:10px 0; 
+  }
+
+input[type=number] {
+    padding:10px;
+    margin:10px 0;
+    box-sizing: border-box; 
+  }
+
+  .btygyjg-btn {
+    margin: 0 auto;
+    text-align: right;
+    width: 50%;
+    border-radius: 10px;
+}
+button {
+    float: right;
+    padding:0px;
+        display: flex;
+        justify-content: flex-end;
+        border-radius: 10px;
+}
