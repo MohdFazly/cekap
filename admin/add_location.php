@@ -6,6 +6,10 @@
 	$sql="insert into location (LocationName) values ('$location')";
 	$conn->query($sql);
 
-	header('location:display_location.php');
+    
+    echo "<script
+	type='text/jscript'>alert('Location inserted successfully.')</script>";
+	header('refresh:1 url=display_location.php');
+
 
 ?>
