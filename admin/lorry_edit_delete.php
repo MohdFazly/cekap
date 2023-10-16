@@ -15,14 +15,14 @@
             <input type="text" value="<?php echo $row['LorryNumber']; ?>" name="numberlorry" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
-                            <div class="col-md-3" style="margin-top:7px;">
-                                <label class="control-label">Status:</label>
-                            </div>
+                        <div class="col-md-3" style="margin-top:7px;">
+                            <label class="control-label">Status:</label>
+                        </div>
             
-                    <select id="status" class="form-control" name="status">
-                    <option value="Available">Available</option>
-                    <option value="Unavailable">Unavailable</option>
-                    </select>
+                        <select id="status" class="form-control" name="status">
+                            <option value="Available" <?php if ($row['Status'] === 'Available') echo 'selected'; ?>>Available</option>
+                            <option value="Unavailable" <?php if ($row['Status'] === 'Unavailable') echo 'selected'; ?>>Unavailable</option>
+                        </select>
           </div>
         
       </div>
