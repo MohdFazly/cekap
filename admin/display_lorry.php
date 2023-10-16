@@ -5,7 +5,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    
+
 <body>
 <title>Admin | Lorry </title>
 <div class="container">
@@ -43,7 +43,7 @@
                             
                             <td>
 							<div>
-								<a href="#editlorry<?php echo $row['LorryNumber']; ?>" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> || <a href="#deletedriver<?php echo $row['LorryNumber']; ?>" data-toggle="modal" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span> Delete</a>
+								<a href="#editlorry<?php echo $row['LorryNumber']; ?>" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> || <a href="#deletelorry<?php echo $row['LorryNumber']; ?>" data-toggle="modal" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span> Delete</a>
 							</div>
 								<?php include('lorry_edit_delete.php'); ?>
 							</td>

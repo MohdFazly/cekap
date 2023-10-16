@@ -39,7 +39,7 @@
                             
                             <td>
 							<div>
-								<a href="#editLocation<?php echo $row['LocationID']; ?>" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> || <a href="#deletelocation<?php echo $row['LocationID']; ?>" data-toggle="modal" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span> Delete</a>
+								<a href="#editlocation<?php echo $row['LocationID']; ?>" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> || <a href="#deletelocation<?php echo $row['LocationID']; ?>" data-toggle="modal" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span> Delete</a>
 							</div>
 								<?php include('location_edit_delete.php'); ?>
 							</td>

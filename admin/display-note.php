@@ -21,24 +21,24 @@
 	<div style="margin-top:10px;">
 		<table class="table table-bordered" style="background-color: #fcfcfc;">
 			<colgroup>
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
                 <col width="20%">
                 <col width="20%">
-                <col width="20%">
-                <col width="20%">
-                <col width="20%">
-                <col width="20%">
-                <col width="20%">
-                <col width="20%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
             </colgroup>
 			<thead>
 				<th>Delivery Note</th>
                 <th>Lorry Number</th>
-				<th>DriverName</th>
-				<th>FromLocation</th>
-				<th>ToLocation</th>
-				<th>TotalLogs</th>
-				<th>TotalVolume</th>
-				<th>DeliveryDate</th>
+				<th>Driver Name</th>
+				<th>From Location</th>
+				<th>To Location</th>
+				<th>Total Logs</th>
+				<th>Total Volume</th>
+				<th>Delivery Date</th>
 			</thead>
 			<tbody>
 				<?php
@@ -56,7 +56,6 @@
                             <td><?php echo $row['TotalVolume']; ?></td>
                             <td><?php echo $row['DeliveryDate']; ?></td>
                             
-							
 						</tr>
 						<?php
 					}
